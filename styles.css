@@ -11,6 +11,43 @@ body {
   margin: 2em;
 }
 
-label {
-	color: green;
+input[type=text] {
+	width: 300px;
+	height: 40px;
+    padding: 1px 15px;
+}
+
+.managerDetails {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.employeeList {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.employeeList div {
+	border-bottom: 1px dotted black;
+}
+
+input[type=button] {
+	margin-bottom: 15px;
+}
+
+.selected-employee {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.selected-employee div {
+	margin-left: 20px;
+}
+
+.employeeList div {
+	margin-left: 20px;
+}
+
+.managerDetails div {
+	margin-left: 20px;
 }
